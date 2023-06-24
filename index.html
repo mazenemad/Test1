@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, shrink-to-fit=no">
+    <meta name="HandheldFriendly" content="true">
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            touch-action: none;
+            -ms-touch-action: none;
+            user-select: none;
+            margin-left: -20px;
+        }
+        .reset1{
+            position: absolute;
+            background-color: transparent;
+            width: 100px;
+            height: 50px;
+            left: 0%;
+            top: 2%;
+            cursor: pointer;
+        }
+        .reset2{
+            position: absolute;
+            background-color: transparent;
+            width: 100px;
+            height: 50px;
+            left: 10%;
+            top: 2%;
+            cursor: pointer;
+            
+        }
+        .reset3{
+            position: absolute;
+            background-color: transparent;
+            width: 100px;
+            height: 50px;
+            left: 20%;
+            top: 2%;
+            cursor: pointer;
+
+        }
+        .form{
+            position: absolute;
+            right: 5%;
+            top: 2%;
+            width: 150px;
+            color: white;
+            z-index: 100;
+        }
+    </style>
+    <link rel="icon" href="data:,">
+    <script src="novorender/index_umd.js"></script>
+    <script src="main.js" defer="true"></script>
+</head>
+
+<body>
+    <canvas id="output" style="width:100%; height:100%"></canvas>
+    <button class="reset1">reset1</button>
+    <button class="reset2">reset2</button>
+    <button class="reset3">reset3</button>
+    <div class="form">
+        <input type="text" />
+        <input type="submit" class="sub" placeholder="Enter"/>
+    </div>
+</body>
+
+</html>

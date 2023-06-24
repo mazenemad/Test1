@@ -1,0 +1,29 @@
+{
+    "name": "novorender-examples-webpack",
+    "version": "1.0.0",
+    "description": "",
+    "browser": "index.js",
+    "scripts": {
+        "start": "webpack serve --open",
+        "build": "webpack --config ./bundler/webpack.prod.js",
+        "deploy": "vercel --prod"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "copy-webpack-plugin": "^10.2.4",
+        "html-webpack-plugin": "^5.5.3",
+        "webpack": "^5.72.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.8.1"
+    },
+    "dependencies": {
+        "@novorender/data-js-api": "^0.2.25",
+        "@novorender/measure-api": "^0.0.143",
+        "@novorender/webgl-api": "^0.4.59",
+        "build": "^0.1.4",
+        "three": "^0.153.0",
+        "vec3": "^0.1.8",
+        "vercel": "^30.2.3"
+    }
+}
